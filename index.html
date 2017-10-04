@@ -13,6 +13,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/customStyles.css">
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -20,7 +21,42 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div id="page-container">
+            <header>
+                <nav id="main-nav">
+                    <div class="ui secondary pointing menu">
+                        <a class="item active">
+                            Portfolio
+                        </a>
+                        <a class="item">
+                            Resume
+                        </a>
+                        <a class="item">
+                            Contact
+                        </a>
+                        <div class="right menu">
+                            <span class="item">Taylor Watson</span>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div class="ui very padded text container add50PxToTop">
+                <h1 class="ui header centered">Here is some stuff I made.</h1>
+                <h6 class="ui header centered">That I don't hate.</h6>
+            </div>
+            <div class="ui very padded text container">
+                <div class="ui section inverted divider"></div>
+                <h3 class="ui header">onePlusEquals</h3>
+                <p><i class="circle icon"></i> A basic calculator for iOS.</p>
+                <p><i class="code icon"></i> Written entirely in swift.</p>
+                <p><i class="github alternate icon"></i> <a href="https://github.com/TaylorWatson/swift-calc">Here is the source code.</p></a>
+                <h4>Interesting Things</h4>
+                <p>This idea and tutorials were based off Stanford's <a href="http://web.stanford.edu/class/cs193p/cgi-bin/drupal/">iOS course</a> and really helped me quickly understand Swift.</p>
+
+                <h4>Less Interesting</h4>
+                <p>I'm not done yet and still have a ways to go before I finally finish it. I am looking to create an iOS calculator that doesn't suck.</a></p>
+            </div>
+        </div>
 
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
