@@ -14,6 +14,10 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/customStyles.css">
+
+        <!-- Slick Modals main stylesheet -->
+        <link rel="stylesheet" type="text/css" href="./css/slickModal.min.css" media="screen" />
+        
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -44,19 +48,133 @@
                 <h1 class="ui header centered">Here is some stuff I made.</h1>
                 <h6 class="ui header centered">That I don't hate.</h6>
             </div>
+            
+            <!-- Swift Calc Start -->
             <div class="ui very padded text container">
                 <div class="ui section inverted divider"></div>
-                <h3 class="ui header">onePlusEquals</h3>
-                <p><i class="circle icon"></i> A basic calculator for iOS.</p>
-                <p><i class="code icon"></i> Written entirely in swift.</p>
-                <p><i class="github alternate icon"></i> <a href="https://github.com/TaylorWatson/swift-calc">Here is the source code.</p></a>
+                <div class="ui relaxed grid">
+                    <!-- left side -->
+                    <div class="ten wide column">
+                        <h3 class="ui header">onePlusEquals</h3>
+                        <p><i class="circle icon"></i> A basic calculator for iOS.</p>
+                        <p><i class="code icon"></i> Written entirely in swift.</p>
+                        <p><i class="github alternate icon"></i> <a href="https://github.com/TaylorWatson/swift-calc">Here is the source code.</p></a>
+                    </div>
+                    <!-- right side -->
+                    <div class="1 wide column ">
+                        <button class="ui inverted button blue openSlickModal-1 manualLabel center">App Preview</button>
+                    </div>
+                </div>
+                <!-- bottom -->
                 <h4>Interesting Things</h4>
                 <p>This idea and tutorials were based off Stanford's <a href="http://web.stanford.edu/class/cs193p/cgi-bin/drupal/">iOS course</a> and really helped me quickly understand Swift.</p>
-
                 <h4>Less Interesting</h4>
                 <p>I'm not done yet and still have a ways to go before I finally finish it. I am looking to create an iOS calculator that doesn't suck.</a></p>
+                
+                <div id="popup-1" class="slickModal">
+                    <div class="slickWindow">
+                        <div>
+                        <p>onePlusEquals content here.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <!-- Shifts Start -->
+            <div class="ui very padded text container">
+                <div class="ui section inverted divider"></div>
+                <div class="ui relaxed grid">
+                    <!-- left side -->
+                    <div class="ten wide column">
+                        <h3 class="ui header">Shifts</h3>
+                        <p><i class="circle icon"></i> A tip tracker.</p>
+                        <p><i class="code icon"></i> Written in JS/Meteor/React.</p>
+                        <p><i class="github alternate icon"></i> <a href="https://github.com/TaylorWatson/meteor-shifts">Here is the source code.</p></a>
+                    </div>
+                    <!-- right side -->
+                    <div class="1 wide column ">
+                        <button class="ui inverted button blue openSlickModal-2 manualLabel center">App Preview</button>
+                    </div>
+                </div>
+                <!-- bottom -->
+                <h4>Interesting Things</h4>
+                <p>For people doing shift work who work off tips (like pizza delivery guys). Written in JS/Meteor so it works across any mobile device. You can generate reports and track anything you want on device.</p>
+                <h4>Less Interesting</h4>
+                <p>We experimented with the UI but settled on materialize. We toned down the effects because of the UI lag. We also used Floobits which worked pretty interesting, being able to code together was a cool concept although let to commit issues. Would love to update it someday.</a></p>
+                
+                <div id="popup-2" class="slickModal">
+                    <div class="slickWindow">
+                        <div>
+                        <p>Shifts content here.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Shifts Start -->
+            <div class="ui very padded text container">
+                <div class="ui section inverted divider"></div>
+                <div class="ui relaxed grid">
+                    <!-- left side -->
+                    <div class="ten wide column">
+                        <h3 class="ui header">Todo</h3>
+                        <p><i class="circle icon"></i> A todo list for mobile devices.</p>
+                        <p><i class="code icon"></i> Written in JS/Meteor/React.</p>
+                        <p><i class="github alternate icon"></i> <a href="https://github.com/TaylorWatson/meteor-web-final">Here is the source code.</p></a>
+                    </div>
+                    <!-- right side -->
+                    <div class="1 wide column ">
+                        <button class="ui inverted button blue openSlickModal-3 manualLabel center">App Preview</button>
+                    </div>
+                </div>
+                <!-- bottom -->
+                <h4>Interesting Things</h4>
+                <p>It's a todo list that lets users collaborate on the same todo using multiple mobile phones. Works on both android and iOS.</p>
+                <h4>Less Interesting</h4>
+                <p>Again we used floobits and this time entirely gave up trying to share commits. We used one github account to push all updates to make it easier and it still didn't work well. Last time I used floobits.</a></p>
+                
+                <div id="popup-3" class="slickModal">
+                    <div class="slickWindow">
+                        <div>
+                        <p>Todo content here.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Weedmaps Blog Start -->
+            <div class="ui very padded text container">
+                <div class="ui section inverted divider"></div>
+                <div class="ui relaxed grid">
+                    <!-- left side -->
+                    <div class="ten wide column">
+                        <h3 class="ui header">Blog</h3>
+                        <p><i class="circle icon"></i> An online blog.</p>
+                        <p><i class="code icon"></i> Written in JS/Meteor/React.</p>
+                        <p><i class="github alternate icon"></i> <a href="https://github.com/TaylorWatson/meteor-web-final">Here is the source code.</p></a>
+                    </div>
+                    <!-- right side -->
+                    
+                </div>
+                <!-- bottom -->
+                <h4>Interesting Things</h4>
+                <p>Not much to tell. It's a working blog that allows users to post on a main board and personal boards. Requires signing in before posting.</p>
+                <h4>Less Interesting</h4>
+                <p>It was the first thing I ever used meteor and react with. Was a fun experience, probably won't fix this up.</a></p>
+                
+            </div>
+
+
+
+
+
+
+
         </div>
+
+
+
+
 
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
@@ -65,6 +183,7 @@
         <link href="./semantic/semantic.min.css" rel="stylesheet" type="text/css">
         <script src="./semantic/jquery.min.js"></script>
         <script src="./semantic/semantic.min.js"></script>
+        <script src="js/slickModal.min.js"></script>
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
