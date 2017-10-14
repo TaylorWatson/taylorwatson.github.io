@@ -2,8 +2,25 @@
     margin-top: 50px;
 }
 
+.add30Px {
+    margin: 30px;
+}
+
 .center {
     position: absolute;
     top: 50%;
     left: 50%;
+}
+
+.height {
+    min-height:100%;
+    min-width:100%;
+    display:flex;
+    align-items:stretch;
+    position:relative;
+    margin: 0;
+}
+
+.add200Px {
+    margin: 200px;
 }
