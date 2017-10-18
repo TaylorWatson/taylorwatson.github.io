@@ -383,6 +383,13 @@ textarea {
     background: rgb(29, 33, 41);
   }
 
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+transition: all 0.7s ease;
+}
+  
 /* font */
 .night-mode h1, .night-mode h1.ui.header, .night-mode h2, .night-mode h2.ui.header, .night-mode h3, .night-mode h3.ui.header, .night-mode h4, .night-mode h4.ui.header, .night-mode h5, .night-mode h5.ui.header, .night-mode h6, .night-mode h6.ui.header, .night-mode p, .night-mode title {
     color: rgb(228, 228, 228);
